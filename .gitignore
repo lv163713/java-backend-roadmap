@@ -1,0 +1,36 @@
+# ===== Java / 构建产物 =====
+target/
+out/
+build/
+*.class
+*.jar
+*.war
+*.log
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+nbproject/
+
+# ===== 操作系统 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 环境与密钥（切勿提交）=====
+.env
+*.pem
+application-local.yml
+application-local.properties
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*~
+~$*
